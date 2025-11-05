@@ -3273,7 +3273,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"intro-storybook-react-template@workspace:.":
+"intro-storybook-react-template@npm:^0.2.0, intro-storybook-react-template@workspace:.":
   version: 0.0.0-use.local
   resolution: "intro-storybook-react-template@workspace:."
   dependencies:
@@ -3294,6 +3294,7 @@ __metadata:
     eslint-plugin-react-refresh: "npm:^0.4.20"
     eslint-plugin-storybook: "npm:^9.1.5"
     globals: "npm:^16.3.0"
+    intro-storybook-react-template: "npm:^0.2.0"
     msw: "npm:^2.3.0"
     msw-storybook-addon: "npm:^2.0.5"
     playwright: "npm:^1.54.1"
