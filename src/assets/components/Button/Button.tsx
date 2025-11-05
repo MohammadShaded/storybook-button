@@ -19,12 +19,12 @@ const Button: React.FC<ButtonProps> = ({
 	className = '',
 	...rest
 }) => {
-	const cls = ['sb-btn', `sb-btn--${variant}`, `sb-btn--${size}`, `sb-btn--${color}`, className]
+	const classes = ['sb-btn', `sb-btn--${variant}`, `sb-btn--${size}`, `sb-btn--${color}`, className]
 		.filter(Boolean)
 		.join(' ');
 
 	return (
-		<button className={cls} {...rest}>
+		<button className={classes} {...rest}>
 			{children}
 		</button>
 	);
